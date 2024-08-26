@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+.nanum-pen script-regular {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.background {
+	background-image:radial-gradient(#EEEEEE, #C9CBF4, #C9CBF4);
+	background-size:cover;
+	height:100vh;
+	display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.content {
+    background-color:white;
+    opacity:0.8;
+    width:300px;
+    height:400px;
+    
+    border:3px solid #EEEEEE;
+	border-radius:10px;
+}
+
+.first_section, .second_section {
+    background-color:#DEDAE3;
+    opacity:0.8;
+    width:275px;
+    height:100px;
+    
+    border:3px solid #EEEEEE;
+	border-radius:10px;
+	margin:10px;
+}
+
+.second_section {
+    background-color:#D8E7FB;
+    opacity:0.8;
+    width:275px;
+    height:100px;
+    
+    border:3px solid #EEEEEE;
+	border-radius:10px;
+	margin:10px;
+}
+ .third_section {
+    background-color:#C0B3C5;
+    opacity:0.8;
+    width:275px;
+    height:130px;
+    
+    border:3px solid #EEEEEE;
+	border-radius:10px;
+	margin:10px;
+}
+
+.first {
+	font-family:'Nanum Pen Script', cursive;
+	color:black;
+	font-size:20px;
+	font-weight:500;
+	
+	padding:10px;
+}
+
+.first_content {
+	font-family:'Nanum Pen Script', cursive;
+	color:black;	
+	text-align:left;
+	font-size:13px;
+	margin:0 10px;
+}
+
+.second {
+	font-family:'Nanum Pen Script', cursive;
+	color:black;
+	text-align:right;
+	font-size:20px;
+	font-weight:500;
+	
+	padding:10px;
+}
+
+.second_content {
+	font-family:'Nanum Pen Script', cursive;
+	color:black;	
+	text-align:right;
+	font-size:13px;
+	margin:0 10px;
+}
+
+.third {
+	font-family:'Nanum Pen Script', cursive;
+	color:black;
+	text-align:left;
+	font-size:20px;
+	font-weight:500;
+	
+	padding:10px;
+}
+
+.third_content {
+	font-family:'Nanum Pen Script', cursive;
+	color:black;	
+	text-align:left;
+	font-size:13px;
+	margin:0 10px;
+}
+
+.background #back {
+	display:block;
+	float:left;
+    border:3px solid #7D7485;
+    background-color:#7D7485;
+	border-radius:10px;
+    width:70px;
+    height:20px;
+        
+	font-family:'Nanum Pen Script', cursive;
+	color:white;
+	font-size:14px;
+	
+	position:relative;
+	bottom:5px;
+	right:-120px;
+}

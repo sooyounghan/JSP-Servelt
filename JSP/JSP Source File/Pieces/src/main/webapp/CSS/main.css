@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+.background {
+	background-image:radial-gradient(#EEEEEE, #C9CBF4, #C9CBF4);
+	background-size:cover;
+	height:100vh;
+	display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.outer-circle {
+	display:flex;
+	border-radius:50%;
+	background-color:white;
+	padding:20px;
+	width:300px;
+	height:300px;
+	position: relative;
+}
+
+.inner-circle {
+	display:block;
+	margin:auto;
+	border-radius:50%;
+	background-color:white;
+	width:250px;
+	height:250px;
+	background-image:url("/Pieces/imgs/main.png");
+	background-size:contain;
+}

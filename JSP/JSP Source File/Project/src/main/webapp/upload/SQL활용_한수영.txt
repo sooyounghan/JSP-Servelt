@@ -1,0 +1,3 @@
+SELECT d.dname, COUNT(*), ROUND(AVG(e.sal)) 
+FROM emp e INNER JOIN dept d ON(e.deptno = d.deptno)
+GROUP BY d.dname;

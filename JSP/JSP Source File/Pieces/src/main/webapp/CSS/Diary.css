@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.nanum-pen script-regular {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+	background-image:radial-gradient(#EEEEEE, #C9CBF4, #C9CBF4);
+	background-size:cover;
+	height:100vh;
+	display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.wrapper {
+    background-color:white;
+    opacity:0.8;
+    width:600px;
+    height:500px;
+    
+    border:3px solid #EEEEEE;
+	border-radius:10px;
+}
+
+.wrapper__head {
+    padding:20px 30px;
+    border-bottom:1px dashed gray;
+}
+
+.wrapper__head__title {
+    background-color:#C9CBF4;
+    
+    color:white;
+    
+    font-size:32px;
+    text-align:center;
+	font-family:'Nanum Pen Script', cursive;
+    font-weight:500;
+    border-radius:10px;
+    
+    padding:10px;
+    margin-bottom:20px;
+}
+
+.wrapper__head__sub-title {
+    font-size:18px;
+    font-weight:600;
+
+}
+
+.wrapper__head__sub-title #point {
+    color:#C9CBF4;
+	font-family:'Nanum Pen Script', cursive;
+	
+    font-size:25px;
+    font-weight:500;
+	text-align:right;
+    display:block;
+}
+
+.todo {
+	background-color:#EEEEEE;
+    width:530px;
+    height:80px;
+    
+	font-family:'Nanum Pen Script', cursive;
+	color:#646464;
+	font-size:20px;
+    font-weight:500;
+    
+    margin-top:10px;
+    padding:20px 20px;
+    
+    border:none;
+    resize:none;
+}
+
+#submit {
+	display:block;
+    border:3px solid #C9CBF4;
+    background-color:#C9CBF4;
+	border-radius:10px;
+    width:80px;
+    height:30px;
+        
+	font-family:'Nanum Pen Script', cursive;
+	color:white;
+	font-size:20px;
+	
+	position:relative;
+	bottom:-10px;
+	right:-450px;
+}
+
+
+.wrapper__body {
+    margin:10px 30px;
+}
+
+.wrapper__body #point_2 {
+    color:#C9CBF4;
+	font-family:'Nanum Pen Script', cursive;
+	
+    font-size:25px;
+    font-weight:500;
+	text-align:right;
+    display:block;
+    margin:10px 0;
+}
+
+.emotion {
+	background-color:#EEEEEE;
+    width:530px;
+    height:80px;
+    
+	font-family:'Nanum Pen Script', cursive;
+	color:#646464;
+	font-size:20px;
+    font-weight:500;
+    
+    padding:20px 20px;
+    
+    border:none;
+    resize:none;
+}
+
+#submit_emotion {
+	display:block;
+    border:3px solid #C9CBF4;
+    background-color:#C9CBF4;
+	border-radius:10px;
+    width:150px;
+    height:30px;
+        
+	font-family:'Nanum Pen Script', cursive;
+	color:white;
+	font-size:20px;
+	
+	position:relative;
+	bottom:-10px;
+	right:-380px;
+}
+
+#logout {
+	display:block;
+    border:3px solid #C9CBF4;
+    background-color:#C9CBF4;
+	border-radius:10px;
+    width:150px;
+    height:30px;
+        
+	font-family:'Nanum Pen Script', cursive;
+	color:white;
+	font-size:20px;
+	
+	position:relative;
+	bottom:20px;
+	right:-10px;
+}
+
+#go_main {
+	display:block;
+    border:3px solid #C9CBF4;
+    background-color:#C9CBF4;
+	border-radius:10px;
+    width:150px;
+    height:30px;
+        
+	font-family:'Nanum Pen Script', cursive;
+	color:white;
+	font-size:20px;
+	
+	position:relative;
+	bottom:20px;
+	right:-10px;
+}
